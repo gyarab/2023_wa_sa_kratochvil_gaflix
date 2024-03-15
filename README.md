@@ -1,10 +1,8 @@
 # GAFlix
 
-## Instalace
-
 <img src="gaflix.png" alt="Logo" width="200" height="200" />
 
-
+## Instalace
 
 1. **Venv:**
 
