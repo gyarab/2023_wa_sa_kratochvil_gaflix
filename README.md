@@ -2,7 +2,8 @@
 
 ## Instalace
 
-![Gaflix Logo](gaflix.png){:height="200px" width="200px"}
+<img src="gaflix.png" alt="Logo" width="200" height="200" />
+
 
 
 1. **Venv:**
