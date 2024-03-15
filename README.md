@@ -5,7 +5,7 @@
 1. **Venv:**
 
 ```bash
-python3 -m venv venv
+python -3 -m venv venv
 source ./venv/Scripts/activate
 ```
 
