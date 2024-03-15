@@ -2,6 +2,9 @@
 
 ## Instalace
 
+![Gaflix Logo](gaflix.png){:height="200px" width="200px"}
+
+
 1. **Venv:**
 
 ```bash
@@ -14,7 +17,12 @@ source ./venv/Scripts/activate
 pip install -r requirements.txt
 ```
 
-3. **Spuštění:**
+3. **Složka Projektu:**
+```bash
+cd gaflix
+```
+
+4. **Spuštění:**
 ```bash
 python manage.py runserver
 ```
