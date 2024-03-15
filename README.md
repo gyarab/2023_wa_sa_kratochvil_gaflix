@@ -2,30 +2,21 @@
 
 ## Instalace
 
-1. **Aktivace Python Virtual Environment (venv):**
+1. **Venv:**
 
-<details>
-    Vytvoření Venv, pokud již není vytvořen
+```bash
+python3 -m venv venv
+source ./venv/Scripts/activate
+```
 
-    ```bash
-    python3 -m venv myenv
-    ```
-</details>
+2. **Instalace Knihoven:**
+```bash
+pip install -r requirements.txt
+```
 
-    Aktivujte Venv
+3. **Spuštění:**
+```bash
+python manage.py runserver
+```
 
-    ```bash
-    source myenv/bin/activate
-    ```
 
-2. **Instalace knihoven:**
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3. **Spuštění projektu:**
-
-    ```bash
-    python manage.py runserver
-    ```
