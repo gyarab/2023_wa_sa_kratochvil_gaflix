@@ -1,10 +1,11 @@
 {% extends 'filmy/base.html' %}
+{% load i18n %}
 
 {% block 'title' %}Home | {{ block.super }}{% endblock %}
 
 {% block 'main_content' %}
 
-    <h1>GAFlix - Filmy</h1>
+    <h1>GAFlix - {% trans "Filmy" %}</h1>
 
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, similique. Unde ad ratione reiciendis, recusandae eum, sapiente ipsum, maiores dolore porro ducimus rerum. Nesciunt aut quo voluptas, iure nihil dolor!</p>
 

@@ -1,14 +1,15 @@
 {% extends 'filmy/base.html' %}
+{% load i18n %}
 
 {% block 'title' %}Druhy | {{ block.super }}{% endblock %}
 
 {% block 'main_content' %}
 
-<h1>druhy</h1>
+<h1>{% trans "druhy" %}</h1>
 <ul>
-    <li>prvni</li>
-    <li>druhy</li>
-    <li>treti</li>
+    <li>{% trans "prvni" %}</li>
+    <li>{% trans "druhy" %}</li>
+    <li>{% trans "treti" %}</li>
 </ul>
 
 
