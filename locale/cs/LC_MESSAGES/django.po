@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-05 11:08+0200\n"
+"POT-Creation-Date: 2024-05-02 17:37+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,7 +16,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n "
+"<= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
 
 #: .\filmy\templates\filmy\base.html:21
 msgid "Home"
@@ -24,35 +25,35 @@ msgstr "Domů"
 
 #: .\filmy\templates\filmy\base.html:24
 msgid "Druhy"
-msgstr ""
+msgstr "Druhý"
 
 #: .\filmy\templates\filmy\druhy.html:8 .\filmy\templates\filmy\druhy.html:11
 msgid "druhy"
-msgstr "HAHAHA"
+msgstr "druhý"
 
 #: .\filmy\templates\filmy\druhy.html:10
 msgid "prvni"
-msgstr "BLBECKU"
+msgstr "první"
 
 #: .\filmy\templates\filmy\druhy.html:12
 msgid "treti"
-msgstr "nic"
+msgstr "třetí"
 
 #: .\filmy\templates\filmy\home.html:8
 msgid "Filmy"
-msgstr ""
+msgstr "Filmy"
 
 #: .\gaflix\settings.py:119
 msgid "English"
-msgstr ""
+msgstr "Angličtina"
 
 #: .\gaflix\settings.py:120
 msgid "Czech"
-msgstr ""
+msgstr "Čeština"
 
 #: .\venv\Lib\site-packages\django\contrib\messages\apps.py:16
 msgid "Messages"
-msgstr ""
+msgstr "Zprávy"
 
 #: .\venv\Lib\site-packages\django\contrib\sitemaps\apps.py:8
 msgid "Site Maps"
@@ -1123,8 +1124,8 @@ msgid ""
 "If you are using the <meta name=\"referrer\" content=\"no-referrer\"> tag or "
 "including the “Referrer-Policy: no-referrer” header, please remove them. The "
 "CSRF protection requires the “Referer” header to do strict referer checking. "
-"If you’re concerned about privacy, use alternatives like <a "
-"rel=\"noreferrer\" …> for links to third-party sites."
+"If you’re concerned about privacy, use alternatives like <a rel=\"noreferrer"
+"\" …> for links to third-party sites."
 msgstr ""
 
 #: .\venv\Lib\site-packages\django\views\csrf.py:54
@@ -1235,9 +1236,9 @@ msgstr ""
 #, python-format
 msgid ""
 "You are seeing this page because <a href=\"https://docs.djangoproject.com/en/"
-"%(version)s/ref/settings/#debug\" target=\"_blank\" "
-"rel=\"noopener\">DEBUG=True</a> is in your settings file and you have not "
-"configured any URLs."
+"%(version)s/ref/settings/#debug\" target=\"_blank\" rel=\"noopener"
+"\">DEBUG=True</a> is in your settings file and you have not configured any "
+"URLs."
 msgstr ""
 
 #: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:229

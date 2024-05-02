@@ -109,7 +109,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'CET'
 
 USE_I18N = True
 
@@ -117,11 +117,11 @@ USE_TZ = True
 
 LANGUAGES = [
     ('en', _('English')),
-    ('cz', _('Czech')),
+    ('cs', _('Czech')),
 ]
 
 LOCALE_PATHS = [
-    BASE_DIR / 'locale/',
+    'locale/',
 ]
 
 # Static files (CSS, JavaScript, Images)
