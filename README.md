@@ -16,12 +16,7 @@ source ./venv/Scripts/activate
 pip install -r requirements.txt
 ```
 
-3. **Složka Projektu:**
-```bash
-cd gaflix
-```
-
-4. **Spuštění:**
+3. **Spuštění:**
 ```bash
 python manage.py runserver
 ```
