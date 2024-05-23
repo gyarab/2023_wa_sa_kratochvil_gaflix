@@ -16,7 +16,17 @@ source ./venv/Scripts/activate
 pip install -r requirements.txt
 ```
 
-3. **Spuštění:**
+3. **Inicializace Databáze:**
+```bash
+python manage.py migrate
+```
+
+4. **Aplikování Fixtures:**
+```bash
+./fixtures.sh
+```
+
+5. **Spuštění:**
 ```bash
 python manage.py runserver
 ```
