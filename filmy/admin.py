@@ -4,7 +4,11 @@ from filmy.models import Movie, Director, Genre, Actor
 # Register your models here.
 
 class MovieAdmin(admin.ModelAdmin):
-    pass
+    list_display = ['id', 'title', 'year', 'footage']
+    list_display_links = ['id', 'title']
+    search_fields = ["=id", "title", "director__name"]
+    list_filter = ['year', "genres"]
+    list_editable = ['year', 'footage']
 
 admin.site.register(Movie, MovieAdmin)
 
