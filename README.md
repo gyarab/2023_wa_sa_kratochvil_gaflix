@@ -23,7 +23,7 @@ python manage.py migrate
 
 4. **Aplikování Fixtures:**
 ```bash
-./fixtures.sh
+python manage.py loaddata fixtures/*.json
 ```
 
 5. **Spuštění:**
