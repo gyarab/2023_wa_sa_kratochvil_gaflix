@@ -7,8 +7,8 @@
     "year": 2019,
     "description": "Příběh o partě přátel, kteří se vydávají na divokou párty.",
     "footage": 90,
-    "photo": "photos/movies/party-hard.jpg",
-    "director": null,
+    "photo": "//image.pmgstatic.com/cache/resized/w140/files/images/film/posters/163/666/163666544_84aa02.jpg",
+    "director": 3,
     "actors": [],
     "genres": []
   }
@@ -21,7 +21,7 @@
     "year": 2006,
     "description": "Dva kamarádi vyráží na prázdniny na řeku a zažívají spoustu dobrodružství.",
     "footage": 105,
-    "photo": "photos/movies/raftaci.jpg",
+    "photo": "//image.pmgstatic.com/cache/resized/w140/files/images/film/posters/162/375/162375991_ccc0f7.jpg",
     "director": null,
     "actors": [],
     "genres": []
@@ -35,8 +35,8 @@
     "year": 2007,
     "description": "Dramatická komedie o středoškolských studentech a jejich životních příbězích.",
     "footage": 110,
-    "photo": "photos/movies/gympl.jpg",
-    "director": null,
+    "photo": "//image.pmgstatic.com/cache/resized/w140/files/images/film/posters/000/072/72263_1a5db4.jpg",
+    "director": 2,
     "actors": [],
     "genres": []
   }
@@ -49,8 +49,8 @@
     "year": 1999,
     "description": "Komedie z doby konce 60. let, která sleduje osudy dvou rodin během Vánoc.",
     "footage": 115,
-    "photo": "photos/movies/pelisky.jpg",
-    "director": null,
+    "photo": "//image.pmgstatic.com/cache/resized/w140/files/images/film/posters/165/059/165059101_56d52a.jpg",
+    "director": 5,
     "actors": [],
     "genres": []
   }
@@ -63,7 +63,7 @@
     "year": 2004,
     "description": "Příběh dvou kamarádů, kteří jedou na hory zažít skvělou zábavu a snowboarding.",
     "footage": 100,
-    "photo": "photos/movies/snowboardaci.jpg",
+    "photo": "//image.pmgstatic.com/cache/resized/w140/files/images/film/posters/160/647/160647387_6e38b8.jpg",
     "director": null,
     "actors": [],
     "genres": []

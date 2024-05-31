@@ -31,4 +31,9 @@ python manage.py loaddata fixtures/*.json
 python manage.py runserver
 ```
 
+## Dump fixtures
+```bash
+export PYTHONIOENCODING=utf-8 && python manage.py dumpdata --indent 2 filmy.Movie > fixtures/film.json
+```
+
 

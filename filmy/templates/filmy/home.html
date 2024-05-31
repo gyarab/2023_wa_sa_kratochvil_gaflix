@@ -1,12 +1,47 @@
 {% extends 'filmy/base.html' %}
-{% load i18n %}
 
-{% block 'title' %}Home | {{ block.super }}{% endblock %}
+{% block title %}Home | {{ block.super }}{% endblock %}
 
-{% block 'main_content' %}
+{% block 'content' %}
+<div class="container mt-5">
+    <div class="jumbotron text-center">
+        <h1 class="display-4"><strong>GAFlix</strong></h1>
+        <p class="lead">Not just any flix</p>
+        <hr class="my-4">
+        <p>Sponsored by Siberia© Chewing Gums ;)</p>
+        <a class="btn btn-primary btn-lg btn-dark" href="{% url 'movies' %}" role="button">Browse Movies</a>
+    </div>
 
-    <h1>GAFlix - {% trans "Filmy" %}</h1>
+    <br><br>
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, similique. Unde ad ratione reiciendis, recusandae eum, sapiente ipsum, maiores dolore porro ducimus rerum. Nesciunt aut quo voluptas, iure nihil dolor!</p>
-
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h5 class="card-title">Browse Movies</h5>
+                    <p class="card-text">Explore our extensive collection of movies.</p>
+                    <a href="{% url 'movies' %}" class="btn btn-secondary">Browse</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h5 class="card-title">Genres</h5>
+                    <p class="card-text">Discover movies by genres.</p>
+                    <a href="" class="btn btn-secondary">Explore Genres</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h5 class="card-title">Top Directors</h5>
+                    <p class="card-text">Get to know the directors behind the movies.</p>
+                    <a href="" class="btn btn-secondary">View Directors</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 {% endblock %}
